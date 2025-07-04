@@ -7,7 +7,6 @@ export const tickets = [
     vat: "Incl. 20% VAT",
     buttonType: "buyNow",
     image: "/purpletop.png",
-    backgroundImage: "/ticketbg.png", 
     features: [
       "Access to ConneXions & Investor Lounge",
       "Network Events",
@@ -26,7 +25,7 @@ export const tickets = [
     vat: "Incl. 20% VAT",
     buttonType: "buyNow",
     image: "/orangetop.png",
-    backgroundImage: "/ticketbg.png", 
+
     features: [
       "Access to ConneXions & Investor Lounge",
       "Network Events",
@@ -41,11 +40,10 @@ export const tickets = [
     id: 3,
     title: "VISITOR 3 DAY ACCESS TICKET",
     badge: "EXCLUSIVE",
-   price: "FREE",
+    price: "FREE",
     vat: "Incl. 20% VAT",
     buttonType: "buyNow",
     image: "/topbottom.png",
-    backgroundImage: "/blackgroundCard.png", 
     features: [
       "Access to ConneXions & Investor Lounge",
       "Network Events",
@@ -64,7 +62,6 @@ export const tickets = [
     vat: "Incl. 20% VAT",
     buttonType: "buyNow",
     image: "/purpletop.png",
-    backgroundImage: "/ticketbg.png", 
     features: [
       "Access to ConneXions & Investor Lounge",
       "Network Events",
@@ -83,7 +80,6 @@ export const tickets = [
     vat: "Incl. 20% VAT",
     buttonType: "buyNow",
     image: "/orangetop.png",
-    backgroundImage: "/ticketbg.png", 
     features: [
       "Access to ConneXions & Investor Lounge",
       "Network Events",
@@ -102,7 +98,6 @@ export const tickets = [
     vat: "Incl. 20% VAT",
     buttonType: "buyNow",
     image: "/topbottom.png",
-    backgroundImage: "/ticketbg.png", 
     features: [
       "Access to ConneXions & Investor Lounge",
       "Network Events",
