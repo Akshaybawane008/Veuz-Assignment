@@ -1,0 +1,42 @@
+.bg-gradient {
+  background: linear-gradient(90deg, #299d3f 0%, #123f22 100%);
+}
+
+.button-btn {
+  background: linear-gradient(90deg, #ab0202 0%, #240102 100%);
+  border-radius: 5px;
+  color: white;
+}
+
+.pre-botton {
+  background: linear-gradient(90deg, #5c2f66 0%, #25102c 100%);
+}
+
+.next-botton {
+  background: linear-gradient(90deg, #27963d 0%, #134323 100%);
+}
+
+.bg-image {
+  background-image: url("/topbottom.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-bg {
+  background-image: url("/bg-all.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.TicketCardBackground {
+  background-image: url("/blackground.png");
+  background-size: "cover";
+  background-position: "center";
+}
+
+.gradient-border-top {
+  border-top: 1.5px solid transparent;
+  border-image: linear-gradient(to right, white, transparent);
+  border-image-slice: 1;
+}
