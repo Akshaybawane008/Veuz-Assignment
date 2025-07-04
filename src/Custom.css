@@ -30,7 +30,7 @@
 }
 
 .TicketCardBackground {
-  background-image: url("/blackground.png");
+  background-image: url("/blackgroundCard.png");
   background-size: "cover";
   background-position: "center";
 }
