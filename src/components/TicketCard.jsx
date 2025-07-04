@@ -39,16 +39,6 @@ const TicketCard = ({ ticket }) => {
       </div>
 
       <div className="relative overflow-hidden">
-        {" "}
-        <div className="absolute inset-0">
-          <img
-            src="blackgroundCard.png"
-            alt="Background"
-            className="w-full h-full object-cover"
-          />
-
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(7,_29,_73,_0.9)_0%,_rgba(3,_14,_39,_0.95)_100%)]"></div>
-        </div>
         <div className="relative">
           {" "}
           <div className="absolute inset-0">
