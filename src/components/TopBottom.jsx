@@ -1,7 +1,7 @@
 
 const TopBottom = () => {
   return (
-    <div >
+     <div className="flex justify-center">
       <img src="/topbottom.png" alt="img" />
     </div>
   )
