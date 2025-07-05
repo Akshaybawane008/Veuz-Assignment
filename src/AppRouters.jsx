@@ -8,6 +8,7 @@ import RegistrationSummaryPage from "./pages/RegistrationSummaryPage";
 import SelectProduct from "./components/SelectProduct";
 
 const AppRouters = () => (
+  
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<TicketPage />} />

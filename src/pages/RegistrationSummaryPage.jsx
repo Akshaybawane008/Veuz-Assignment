@@ -1,6 +1,7 @@
 import React from "react";
 import TopBottom from "../components/TopBottom";
 import RegistrationSummary from "../components/RegistrationSummary";
+import ProgressBar from "../components/ProgressBar";
 
 const RegistrationSummaryPage = () => {
   return (
@@ -9,6 +10,7 @@ const RegistrationSummaryPage = () => {
         <TopBottom />
       </div>
       <div className="page-bg">
+         <ProgressBar/>
         <RegistrationSummary />
       </div>
       <div>

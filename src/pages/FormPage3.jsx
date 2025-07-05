@@ -1,6 +1,7 @@
 import React from 'react';
 import TopBottom from "../components/TopBottom";
 import { useNavigate } from 'react-router-dom';
+import ProgressBar from '../components/ProgressBar';
 
 const FormPage2 = () => {
   const navigate = useNavigate();
@@ -28,7 +29,8 @@ const FormPage2 = () => {
       </div>
       
       <div className="text-center p-5 page-bg">
-        <h1 className="mb-8">Page 3 loading....</h1>
+         <ProgressBar/>
+        <h1 className="mb-20">Page 3 loading....</h1>
         
         <div className="flex justify-center gap-4 mt-4">
           <button

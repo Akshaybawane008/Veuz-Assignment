@@ -1,5 +1,6 @@
 import TopBottom from "../components/TopBottom";
 import RegistrationForm from "../components/RegistrationForm";
+import ProgressBar from "../components/ProgressBar";
 
 const Registration = () => {
   return (
@@ -16,6 +17,7 @@ const Registration = () => {
         <div className="relative z-0"></div>
       </div>
       <div className="page-bg py-7">
+        <ProgressBar />
         <RegistrationForm />
       </div>
       <TopBottom />
