@@ -242,12 +242,12 @@ const RegistrationForm = () => {
                     >
                       <option value="">Please Select</option>
                
-                      <option value="Nigeria">India</option>
-                      <option value="Nigeria">America</option>
-                      <option value="Nigeria">New York</option>
-                      <option value="Nigeria">Dubai</option>
-                      <option value="Nigeria">Bali</option>
-                      <option value="Nigeria">Tokio</option>
+                      <option value="India">India</option>
+                      <option value="America">America</option>
+                      <option value="New York">New York</option>
+                      <option value="Dubai">Dubai</option>
+                      <option value="Bali">Bali</option>
+                      <option value="Tokio">Tokio</option>
                       <option value="Other">Other</option>
                     </select>
                     {errors.country && touched.country && (
