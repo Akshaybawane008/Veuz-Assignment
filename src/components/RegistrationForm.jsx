@@ -263,6 +263,8 @@ const RegistrationForm = () => {
                     >
                       <option value="">Please Select</option>
                       <option value="North">North</option>
+                      <option value="East">East</option>
+                      <option value="West">West</option>
                       <option value="South">South</option>
                     </select>
                   </div>
@@ -430,6 +432,7 @@ const RegistrationForm = () => {
                       <option value="">Please Select</option>
                       <option value="Private">Private</option>
                       <option value="Public">Public</option>
+                      <option value="Government">Government</option>
                     </select>
                     {errors.companyType && touched.companyType && (
                       <p className="text-red-500 text-xs mt-1">
@@ -453,8 +456,12 @@ const RegistrationForm = () => {
                       } rounded-md focus:outline-none focus:ring-1 focus:ring-green-500`}
                     >
                       <option value="">Please Select</option>
-                      <option value="Tech">Technology</option>
+                      <option value="Education">Education</option>
+                      <option value="Agriculture">Agriculture</option>
+                      <option value="Mining">Mining</option>
                       <option value="Finance">Finance</option>
+                      <option value="Tech">Technology</option>
+                      <option value="Construction">Construction </option>
                     </select>
                     {errors.industry && touched.industry && (
                       <p className="text-red-500 text-xs mt-1">
@@ -525,7 +532,6 @@ const RegistrationForm = () => {
               </form>
             </div>
           </div>
-
 
           <div className="w-full md:w-1/3 border border-gray-200 rounded-md h-fit">
             <div className="bg-image relative h-14 w-full rounded-t-lg">
