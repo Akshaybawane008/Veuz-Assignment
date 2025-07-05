@@ -241,7 +241,13 @@ const RegistrationForm = () => {
                       } rounded-md focus:outline-none focus:ring-1 focus:ring-green-500`}
                     >
                       <option value="">Please Select</option>
-                      <option value="Nigeria">Nigeria</option>
+               
+                      <option value="Nigeria">India</option>
+                      <option value="Nigeria">America</option>
+                      <option value="Nigeria">New York</option>
+                      <option value="Nigeria">Dubai</option>
+                      <option value="Nigeria">Bali</option>
+                      <option value="Nigeria">Tokio</option>
                       <option value="Other">Other</option>
                     </select>
                     {errors.country && touched.country && (
