@@ -241,7 +241,7 @@ const RegistrationForm = () => {
                       } rounded-md focus:outline-none focus:ring-1 focus:ring-green-500`}
                     >
                       <option value="">Please Select</option>
-               
+
                       <option value="India">India</option>
                       <option value="America">America</option>
                       <option value="New York">New York</option>
@@ -349,7 +349,13 @@ const RegistrationForm = () => {
                         className="w-1/4 px-3 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-green-500"
                       >
                         <option value="+234">+234</option>
-                        <option value="+1">+1</option>
+                        <option value="+91">+91</option>
+                        <option value="+15">+15</option>
+                        <option value="+82">+82</option>
+                        <option value="+787">+787</option>
+                        <option value="+33">+33</option>
+                        <option value="+155">+155</option>
+                        <option value="+175">+175</option>
                       </select>
                       <input
                         type="tel"
